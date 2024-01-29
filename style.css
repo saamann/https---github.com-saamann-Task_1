@@ -12,50 +12,35 @@ header {
   position: relative;
 }
 
-header p {
-  margin-top: -50px;
-  font-size: x-small;
-}
-
-header h1 {
-  font-family: "PT Sans", Calibri, Tahoma, sans-serif; /* Font style added here */
-
-  font-size: 5rem;
-}
-
 header img {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  margin-top: -100px;
+  transform: translateX(-50%);
+  z-index: -1; /* Move the image behind the text */
 }
 
 h1 {
-  font-family: "Times New Roman", Times, serif; /* Font style added here */
-  font-size: 100px;
+  font-family: "PT Sans", sans-serif;
+  margin-top: 200px;
+  font-size: 120px;
   text-align: center;
-  margin-top: 50px;
+
+  position: relative; /* Ensure the text is positioned relative to the header */
+  z-index: 1; /* Ensure text is above the image */
 }
 
 h2 {
-  font-family: "Arial", sans-serif; /* Font style added here */
-  font-size: 100px;
+  font-size: 120px;
   text-align: center;
-  margin-top: -60px;
+  margin-top: -100px;
 }
 
 p {
   font-size: small;
   text-align: center;
-  margin-top: -60px;
-}
-
-.main-content h1 {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 100px;
+  margin-top: -50px;
 }
 
 .main-content {
@@ -64,24 +49,34 @@ p {
 }
 
 .table {
-  text-align: center;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
+  top: 910.4px;
+  left: 1248.6px;
+  width: 281.5px;
+  height: 125.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   background-color: #f4f4f4;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 table {
-  margin-right: 20%;
-  width: 100%;
+  width: 160%;
   border-collapse: collapse;
 }
 
+
+td.label:after {
+  content: ": ";
+  margin-left: 60px; /
+}
 td {
   padding: 10px;
   text-align: left;
+  border-bottom: 2px solid #fffdfd;
 }
 
 td:first-child {
