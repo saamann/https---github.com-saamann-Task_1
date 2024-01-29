@@ -8,3 +8,26 @@ body {
   text-align: center;
   padding: 20px;
 }
+.table {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+table {
+  position: relative;
+  left: -100px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+td:first-child {
+  text-align: right;
+}
