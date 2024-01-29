@@ -13,12 +13,29 @@ header {
 }
 
 header img {
-  width: 500px;
-  height: 400px;
+  width: 1500px;
+  height: 800px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -800px;
+  transform: translateX(-50%);
+  z-index: -1; /* Move the image behind the text */
+}
+
+img.first-image {
+  width: 1500px;
+  height: 800;
   position: absolute;
   margin-top: -100px;
   transform: translateX(-50%);
   z-index: -1; /* Move the image behind the text */
+}
+
+img.second-image {
+  width: 500px; /* Adjust as needed */
+  height: 400px;
+  margin-top: -150px; /* Adjust as needed */
+  margin-left: 10px;
 }
 
 h1 {
@@ -26,7 +43,6 @@ h1 {
   margin-top: 200px;
   font-size: 120px;
   text-align: center;
-
   position: relative; /* Ensure the text is positioned relative to the header */
   z-index: 1; /* Ensure text is above the image */
 }
@@ -68,11 +84,11 @@ table {
   border-collapse: collapse;
 }
 
-
 td.label:after {
-  content: ": ";
-  margin-left: 60px; /
+  content: ":";
+  margin-left: 100px; /* Adjust as needed */
 }
+
 td {
   padding: 10px;
   text-align: left;
