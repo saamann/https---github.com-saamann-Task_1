@@ -18,7 +18,8 @@ header p {
 }
 
 header h1 {
-  font-family: "Times New Roman", Times, serif; /* Font style added here */
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif; /* Font style added here */
+
   font-size: 5rem;
 }
 
