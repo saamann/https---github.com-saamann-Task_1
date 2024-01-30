@@ -1,0 +1,66 @@
+h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 75px;
+  margin-top: 5%;
+  margin-left: 20px;
+  color: black;
+}
+
+p {
+  font-size: 10px;
+  color: rgb(0, 0, 0);
+  padding: 0; /* Adjust padding as needed */
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+hr {
+  margin-left: 30px;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+}
+
+.gut-info,
+.comparison-info,
+.higher-diversity-info {
+  margin-top: 20px;
+}
+
+.gut-info h4 {
+  font-size: 24px;
+  margin-left: 30px;
+  font-weight: 100;
+  color: rgb(31, 8, 82); /* Default color for the entire h4 element */
+}
+
+.gut-info .green-text {
+  color: #00cc00; /* Color for the "VERY GOOD" text */
+}
+
+.info-box {
+  font-size: small;
+  font-family: "PT Sans", sans-serif;
+  padding: 20px; /* Padding inside the box */
+  margin-left: 30px;
+  margin-right: 85%; /* Adjust margin as needed to separate the box from the text */
+  margin-top: -30px;
+}
+
+.info-box p {
+  margin-left: -20px;
+}
+
+.comparison-info p {
+  color: rgb(31, 8, 82);
+}
+
+.higher-diversity-info p {
+  margin-left: 75%;
+  font-weight: bold;
+  color: rgb(31, 8, 82);
+}
+.num-info h1 {
+  margin-left: 90%;
+  font-size: 50px;
+  font-weight: bold;
+}
