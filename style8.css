@@ -1,0 +1,137 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  font-family: "PT Sans", sans-serif;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 150px;
+  margin-left: 45px;
+}
+
+.container h1 {
+  font-weight: bold;
+}
+.container h4 {
+  margin-top: -20px;
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.info-container {
+  display: flex;
+  font-weight: bold;
+  margin-left: 10px;
+  justify-content: space-around;
+}
+.info-box.colitis {
+  width: 45%; /* Set width for the info-box */
+  padding: 0px;
+  margin-right: 140px;
+
+  box-sizing: border-box; /* Include padding and border in the box sizing */
+  text-align: justify; /* Align text to the left */ /* Add space around the info-box */
+}
+
+.info-box {
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-left: -140px;
+}
+
+.info-box h1 {
+  font-size: 30px;
+  color: black;
+}
+
+.info-box p {
+  font-size: 12px;
+  color: black;
+}
+
+.paragraph-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: -8%;
+}
+/* Move the second paragraph to the right */
+.paragraph:nth-child(2) p {
+  width: 100%;
+  text-align: left;
+  margin-left: -260px; /* Adjust the margin as needed */
+}
+
+.paragraph {
+  width: 20%;
+
+  padding: 5px;
+  margin-left: -370px;
+  margin-top: 100px;
+  border: none;
+  border-radius: 8px;
+}
+
+.paragraph p {
+  font-size: 10px;
+  color: black;
+}
+
+.footer-container {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-around; /* Adjust as needed for spacing */
+  align-items: flex-end;
+  margin-left: 30%;
+  margin-top: -70px;
+
+  width: 50%;
+  height: 175px;
+}
+
+.footer p {
+  padding: 5%; /* Adjust as needed for spacing */
+  margin: 20px;
+  width: 50%;
+  border-radius: 2px;
+
+  box-sizing: content-box;
+}
+.page-num {
+  margin-left: 90%;
+  margin-top: -5%;
+}
+
+.image4 {
+  width: 800px; /* Set a fixed width */
+  height: auto;
+  margin-left: 27%; /* Adjust the left margin as needed */
+  border-radius: 8px;
+}
+.info-container img {
+  width: 500%;
+  margin-top: 10%;
+  margin-left: -60px;
+  z-index: -1;
+}
+.container img {
+  width: 40%;
+  position: absolute;
+  z-index: -1;
+  margin-top: -350px;
+  margin-left: -200px;
+}
+.container img.rlogo {
+  width: 45%;
+  position: absolute;
+  z-index: -1;
+  margin-top: -265px;
+  margin-left: 785px;
+}
