@@ -9,7 +9,7 @@ h1 {
 p {
   font-size: 10px;
   color: rgb(0, 0, 0);
-  padding: 0; /* Adjust padding as needed */
+
   margin-top: 20px;
   margin-left: 30px;
 }
@@ -48,19 +48,50 @@ hr {
 
 .info-box p {
   margin-left: -20px;
+  font-family: "PT Sans", sans-serif;
 }
 
 .comparison-info p {
   color: rgb(31, 8, 82);
+  font-family: "PT Sans", sans-serif;
 }
 
 .higher-diversity-info p {
-  margin-left: 75%;
+  margin-left: 55%;
   font-weight: bold;
+  font-family: "PT Sans", sans-serif;
   color: rgb(31, 8, 82);
 }
 .num-info h1 {
+  font-family: "PT Sans", sans-serif;
   margin-left: 90%;
   font-size: 50px;
   font-weight: bold;
+}
+
+/* General styles for all images */
+img {
+  max-width: 50%;
+  height: auto;
+  display: block;
+  border: none;
+
+  margin: 20px auto;
+  z-index: -1;
+}
+
+/* Styles for the first image inside the .gut-info section */
+.first-image {
+  max-width: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* Styles for the second image inside the .comparison-info section */
+.second-image {
+  max-width: 400px;
+  position: absolute;
+  margin-top: -15%;
+  margin-left: 50%;
 }
