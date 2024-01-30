@@ -1,0 +1,86 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  text-align: left;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 45px;
+}
+
+.container h1 {
+  font-weight: bold;
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.info-container {
+  display: flex;
+  font-weight: bold;
+  margin-left: 20px;
+  justify-content: space-around;
+}
+
+.info-box {
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-left: -140px;
+}
+
+.info-box h1 {
+  font-size: 30px;
+  color: black;
+}
+
+.info-box p {
+  font-size: 12px;
+  color: black;
+}
+
+.paragraph-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.paragraph {
+  width: 20%;
+
+  padding: 10px;
+  margin-left: -100px;
+  margin-top: 150px;
+  border: none;
+  border-radius: 8px;
+}
+
+.paragraph p {
+  font-size: 10px;
+  color: black;
+}
+/* Add the following CSS to your style7.css file */
+
+.footer-container {
+  font-size: 10px;
+  display: flex;
+  justify-content: space-around; /* Adjust as needed for spacing */
+  align-items: flex-end;
+  margin-left: 30%;
+  width: 50%;
+  height: 175px;
+}
+
+.footer p {
+  padding: 5%; /* Adjust as needed for spacing */
+  margin: 20px;
+  width: 50%;
+  border-radius: 2px;
+
+  box-sizing: content-box; /* Ensure padding and border are included in the total width */
+}
